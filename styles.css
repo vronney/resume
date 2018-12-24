@@ -20,13 +20,9 @@ a:hover {
     color: white;
 }
 
-ul {
-    padding-bottom: 5px;
-}
-
 li {
-    display: inline-block;
     font-size: 20px;
+    text-decoration-style: none;
 }
 
 @media only screen and (max-width: 500px) {
@@ -37,6 +33,22 @@ li {
 
 li:hover {
     font-weight: 700;
+}
+
+.content-wrapper {
+   max-width: 950px;
+   margin: 0 auto;
+   padding: 50px; 
+}
+
+.skills-content-wrapper {
+    margin: 0 auto;
+    max-width: 950px;
+    padding-bottom: 50px;
+}
+
+h2, p, ul {
+    margin: 0;
 }
 
 /* Header and Footer 
@@ -60,13 +72,15 @@ header h1, header h2 {
     display: block;
 }
 
-header h3, header p {
+header h3 {
     text-align: center;
     display: block;
 }
 
 header p {
-    padding: 5px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 950px;
 }
 
 footer {
@@ -75,6 +89,12 @@ footer {
 
 footer a {
     padding-left: 5px;
+}
+
+.footer-content-wrapper {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 /* Work Experience 
@@ -88,18 +108,10 @@ section img {
     background: #EDF2F4;
 }
 
-.work h2 {
-    text-align: center;
-}
-
 /* SKills
 --------------------------- */
 .skills {
     background: #EDF2F4;
-}
-
-.skills h2, ul {
-    text-align: center;
 }
 
 /* Education 
@@ -108,10 +120,3 @@ section img {
     background: #8D99AE;
 }
 
-div {
-    display: block;
-}
-
-.education h2 {
-    text-align: center;
-}
