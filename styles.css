@@ -8,7 +8,8 @@
 /* Global styles 
 ---------------------------*/
 body {
-    
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 a {
@@ -58,6 +59,10 @@ li:hover {
 
 h2, p, ul {
     margin: 0;
+}
+
+.company {
+    font-weight: bold;
 }
 
 /* Header and Footer 
