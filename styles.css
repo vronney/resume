@@ -1,0 +1,117 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+
+/* Global styles 
+---------------------------*/
+body {
+    
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+ul {
+    padding-bottom: 5px;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    li {
+        font-size: 15px;
+    }
+}
+
+li:hover {
+    font-weight: 700;
+}
+
+/* Header and Footer 
+---------------------------*/
+header, footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+header img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 15px;
+}
+
+header h1, header h2 {
+    color: #EDF2F4;
+    text-align: center;
+    display: block;
+}
+
+header h3, header p {
+    text-align: center;
+    display: block;
+}
+
+header p {
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    padding-left: 5px;
+}
+
+/* Work Experience 
+---------------------------*/
+section img {
+    height: 50px;
+    width: 50px;
+}
+
+.work {
+    background: #EDF2F4;
+}
+
+.work h2 {
+    text-align: center;
+}
+
+/* SKills
+--------------------------- */
+.skills {
+    background: #EDF2F4;
+}
+
+.skills h2, ul {
+    text-align: center;
+}
+
+/* Education 
+---------------------------*/
+.education {
+    background: #8D99AE;
+}
+
+div {
+    display: block;
+}
+
+.education h2 {
+    text-align: center;
+}
