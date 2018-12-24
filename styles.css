@@ -29,6 +29,15 @@ li {
     li {
         font-size: 15px;
     }
+
+    .skills h2, .skills ul {
+        margin-left: 50px;
+    }
+
+    .header-text {
+        width: 400px;
+        padding: 0 20px 20px 10px;
+    }
 }
 
 li:hover {
@@ -112,6 +121,7 @@ section img {
 --------------------------- */
 .skills {
     background: #EDF2F4;
+    margin-top: 0;
 }
 
 /* Education 
