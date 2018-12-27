@@ -141,6 +141,23 @@ section img {
 }
 
 .education .content-wrapper a {
-    padding: 10px;
     display: inline-block;
+    padding-top: 10px;
+}
+
+.school-logo {
+    float: left;
+    position: relative;
+    vertical-align: baseline;
+    margin-top: 18px;
+}
+
+.school-name {
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+.education .content-wrapper .school-name p,
+.education .content-wrapper .school-name a {
+    margin-top: -15px;
 }
