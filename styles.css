@@ -111,6 +111,11 @@ footer a {
     padding-top: 50px;
 }
 
+.contact-info a {
+    display: inline-block;
+    padding: 10px;
+}
+
 /* Work Experience 
 ---------------------------*/
 section img {
@@ -135,3 +140,7 @@ section img {
     background: #8D99AE;
 }
 
+.education .content-wrapper a {
+    padding: 10px;
+    display: inline-block;
+}
