@@ -7,6 +7,14 @@
 
 /* Global styles 
 ---------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -32,7 +40,7 @@ li {
     }
 
     .skills h2, .skills ul {
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
     .header-text {
@@ -52,9 +60,7 @@ li:hover {
 }
 
 .skills-content-wrapper {
-    margin: 0 auto;
-    max-width: 950px;
-    padding-bottom: 50px;
+    padding-top: 0 !important;
 }
 
 h2, p, ul {
@@ -84,6 +90,7 @@ header h1, header h2 {
     color: #EDF2F4;
     text-align: center;
     display: block;
+    margin: 0;
 }
 
 header h3 {
@@ -95,6 +102,10 @@ header p {
     padding-bottom: 50px;
     margin: 0 auto;
     width: 950px;
+}
+
+.header-content-wrapper {
+    padding-top: 0 !important;
 }
 
 footer {
