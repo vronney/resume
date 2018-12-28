@@ -127,6 +127,18 @@ footer a {
     padding: 10px;
 }
 
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    margin-top: 18px;
+}
+
 /* Work Experience 
 ---------------------------*/
 section img {
