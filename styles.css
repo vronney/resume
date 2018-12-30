@@ -67,8 +67,12 @@ h2, p, ul {
     margin: 0;
 }
 
+h1, h2, header h3 {
+    font-family: cursive;
+}
+
 .company {
-    font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Header and Footer 
@@ -148,6 +152,10 @@ section img {
 
 .work {
     background: #EDF2F4;
+}
+
+h3 ~ p {
+    margin: 0;
 }
 
 /* SKills
