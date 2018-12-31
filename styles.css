@@ -59,10 +59,6 @@ li:hover {
    padding: 50px; 
 }
 
-.skills-content-wrapper {
-    padding-top: 0 !important;
-}
-
 h2, p, ul {
     margin: 0;
 }
@@ -158,11 +154,34 @@ h3 ~ p {
     margin: 0;
 }
 
+.job-description {
+    margin-bottom: 30px;
+}
+
+.linkedin-link a {
+    color: red;
+}
+
+.linkedin-link a:hover {
+    color: blue;
+}
+
+/* Projects
+--------------------------- */
+.projects-content-wrapper {
+    margin-top: -80px;
+    background: #EDF2F4;
+}
+
 /* SKills
 --------------------------- */
 .skills {
     background: #EDF2F4;
     margin-top: 0;
+}
+
+.skills-content-wrapper {
+    margin-top: -60px;
 }
 
 /* Education 
