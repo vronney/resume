@@ -150,10 +150,6 @@ section img {
     background: #EDF2F4;
 }
 
-h3 ~ p {
-    margin: 0;
-}
-
 .job-description {
     margin-bottom: 30px;
 }
@@ -168,11 +164,29 @@ h3 ~ p {
 
 /* Projects
 --------------------------- */
-.projects-content-wrapper {
-    margin-top: -80px;
+.projects {
     background: #EDF2F4;
 }
 
+.projects-content-wrapper {
+    margin-top: -80px;
+}
+
+.project-link a {
+    color: black;
+}
+
+.project-link a:hover {
+    color: blue;
+}
+
+.project-wrapper {
+    background: #EDF2F4;
+}
+
+.project-description {
+    padding-bottom: 50px;
+}
 /* SKills
 --------------------------- */
 .skills {
@@ -181,7 +195,7 @@ h3 ~ p {
 }
 
 .skills-content-wrapper {
-    margin-top: -60px;
+   margin-top: 0;
 }
 
 /* Education 
