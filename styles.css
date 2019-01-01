@@ -56,7 +56,8 @@ li:hover {
 .content-wrapper {
    max-width: 950px;
    margin: 0 auto;
-   padding: 50px; 
+   padding: 60px 50px;
+   overflow: hidden; 
 }
 
 h2, p, ul {
@@ -78,6 +79,9 @@ header, footer {
     color: #8D99AE;
 }
 
+header {
+    padding-top: 50px;
+}
 header img {
     border-radius: 50%;
     margin-left: auto;
@@ -142,7 +146,11 @@ footer a {
 /* NavBar
 ---------------------------*/
 nav {
-    text-align: center
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav a {
@@ -151,6 +159,10 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+nav a:hover {
+    color: blue;
 }
 
 /* Work Experience 
