@@ -172,8 +172,9 @@ section img {
     margin-top: -80px;
 }
 
-.project-link a {
-    color: black;
+.project-link a {   
+    color: red;
+    text-decoration: underline;
 }
 
 .project-link a:hover {
