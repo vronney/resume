@@ -246,8 +246,10 @@ section img {
 
 /* Education 
 ---------------------------*/
-.education {
-    background: #8D99AE;
+#education {
+    background: linear-gradient(rgb(141, 153, 174, 0.8), rgb(141, 153, 174, 0.5)),
+    url(./Image/san-antonio-image.jpg) no-repeat fixed;
+    background-size: cover;
 }
 
 .education .content-wrapper a {
@@ -270,4 +272,8 @@ section img {
 .education .content-wrapper .school-name p,
 .education .content-wrapper .school-name a {
     margin-top: -15px;
+}
+
+.school-name p, .school-name a {
+    font-weight: 700;
 }
