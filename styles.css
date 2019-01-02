@@ -34,21 +34,6 @@ li {
     text-decoration-style: none;
 }
 
-@media only screen and (max-width: 500px) {
-    li {
-        font-size: 15px;
-    }
-
-    .skills h2, .skills ul {
-        margin-left: 0px;
-    }
-
-    .header-text {
-        width: 400px;
-        padding: 0 20px 20px 10px;
-    }
-}
-
 li:hover {
     font-weight: 700;
 }
@@ -150,18 +135,6 @@ footer a {
     padding: 10px;
 }
 
-.col-narrow {
-    width: 30%;
-    float: left;
-}
-
-.col-wide {
-    width: 70%;
-    float: left;
-    padding-left: 20px;
-    margin-top: 18px;
-}
- 
 /* NavBar
 ---------------------------*/
 nav {
@@ -170,6 +143,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 nav a {
@@ -207,6 +181,10 @@ section img {
     color: blue;
 }
 
+.employment-date {
+    margin-bottom: 15px;
+}
+
 /* Projects
 --------------------------- */
 .projects {
@@ -230,9 +208,10 @@ section img {
     background: #EDF2F4;
 }
 
-.project-description {
-    padding-bottom: 50px;
+.project-text {
+    margin-bottom: -60px;
 }
+
 /* SKills
 --------------------------- */
 .skills {
@@ -241,7 +220,7 @@ section img {
 }
 
 .skills-content-wrapper {
-   margin-top: 0;
+   margin-top: -50px;
 }
 
 /* Education 
@@ -276,4 +255,49 @@ section img {
 
 .school-name p, .school-name a {
     font-weight: 700;
+}
+
+/* Media Queries 
+----------------------*/
+@media only screen and (max-width: 500px) {
+    li {
+        font-size: 15px;
+    }
+
+    .skills h2,
+    .skills ul {
+        margin-left: 0px;
+    }
+
+    .header-text {
+        width: 400px;
+        padding: 0 20px 20px 10px;
+    }
+
+    nav {
+        display: inline-block;
+    }
+
+    nav a {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+        margin-top: 18px;
+    }
+
+    .project-description {
+        margin-bottom: 50px;
+    }
 }
