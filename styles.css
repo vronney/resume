@@ -227,6 +227,8 @@ section img {
 ---------------------------*/
 #education {
     background: #8D99AE;
+    background: url(./Image/san-antonio-image-greyHue.png) no-repeat fixed;
+    background-size: cover;
 }
 
 .education .content-wrapper a {
